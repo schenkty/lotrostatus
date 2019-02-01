@@ -10,7 +10,7 @@
     <title>LOTRO Trait Tree Planner</title>
     <link href="css/A.css" rel="stylesheet" media="screen" type="text/css">
     <link href="css/lotrottpM.css" rel="stylesheet" type="text/css" media="all">
-    <script src="https://cdn.rawgit.com/schenkty/lotrostatus/master/points.js"></script>
+    <script src="js/points.js"></script>
     <script src="js/jquery-2.0.3.js"></script>
     <script src="js/lz-string-1.3.3.js"></script>
     <script src="js/lotrottpM.js"></script>
