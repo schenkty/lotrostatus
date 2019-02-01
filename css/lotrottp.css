@@ -1,0 +1,75 @@
+body, html {background-color: #111111; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+input.button1 { width:120px}
+#tableLayout {margin:auto; background-color: #111111; border:1px}
+#tdDesc {text-align:center}
+#divDescTable {display: table; width: 100%}
+#divDescCenter {display: table-cell}
+div.divDescSide {display: table-cell; min-width: 150px}
+#divDescLeft {padding-left: 10px}
+#divDescRight {padding-right: 10px; text-align: right; vertical-align: bottom}
+#tdClass {height:50px; min-height:50px; vertical-align:top; text-align:center}
+#tdPathDummy {width:100px; height:30px; min-width:100px; min-height:30px; vertical-align:top; text-align:center}
+td.tdPath {width:250px; height:30px; min-width:250px; min-height:30px; vertical-align:top; text-align:center}
+div.pathHead {position: absolute; top:5px; left:25px; max-width:200px; line-height: 0.9; text-align:center}
+div.pathBonus {position: absolute; top:78px; left:10px}
+div.pathMain {position: absolute; top:75px; left:55px; max-width:190px; line-height: 0.9}
+div.pathLow {position: absolute; left:55px; max-width:190px; line-height: 0.9}
+div.pathSkillName {position: absolute; left:95px; max-width:155px; max-height:36px}
+#tdBonus {width:100px; height:507px; min-width:100px; min-height:507px; max-height:507px; vertical-align:top; text-align:center; background-color: rgba(255, 165, 0, .25)}
+td.tdTree {width:250px; height:507px; min-width:250px; min-height:507px; background-color: rgba(0, 0, 0, .9);  vertical-align:top;}
+td.tdLow {height:50px; min-height:50px; vertical-align:top; text-align:center}
+div.toolTip {position: absolute; padding: 10px; min-width:220px; max-width:220px; border-radius: 4px; border:2px ridge #959595; background-color: rgba(0, 0, 0, .9); line-height: 0.9; z-index: 10}
+div.ttImg {position: absolute; top:10px; left:10px; background-repeat: no-repeat; width:32px; height:32px}
+div.ttMiniIcon {display:inline-block; background-repeat: no-repeat; width:14px; height:14px; margin-bottom:-2px}
+div.ttMiniIconRK {display:inline-block; background-repeat: no-repeat; width:16px; height:16px; margin-bottom:-2px}
+div.ttName {position: absolute; top:7px; left:52px; max-width:150px; max-height:36px}
+div.ttRange {position: absolute; top:50px;}
+div.divTree {width:250px; height:507px; min-width:250px; min-height:507px; vertical-align:top; position: absolute}
+div.divTreeG {width:250px; min-width:250px; max-height:507px; vertical-align:top; position: absolute}
+div.divBonusG {width:100px; min-width:100px; max-width:100px; max-height:507px; vertical-align:top; position: absolute}
+div.traitNumNGlow {min-width:36px; min-height:50px; background-color: rgba(255, 0, 0, .3); position:absolute}
+div.arrows {position: absolute; font-family: Verdana, Arial, serif; font-size: 20px; color: #FFA200; line-height: 0.8}
+div.bigLink {font-family: Verdana, Arial, serif; font-size: 18px; color: #bb6758; font-weight: bold; }
+span.ttF1, span.ttF2, span.ttF3, span.ttF4, span.ttF5, span.ttF6, span.ttF7, span.ttF8, span.ttF10, span.ttF11, span.ttF15, span.ttF16, span.ttF17, span.ttF18, span.ttF19, span.ttF23, span.ttF24, span.ttF25 {font-family: Verdana, Arial, serif; font-size: 12px}
+span.ttF9, span.ttFT9,  span.ttF12,  span.ttF13,  span.ttF14 {font-family: Verdana, Arial, serif; font-size: 16px}
+span.ttF19, span.ttF20, span.ttF21, span.ttF22 {font-family: Verdana, Arial, serif; font-size: 20px}
+#divVersionInfo {font-family: Verdana, Arial, serif; font-size: 16px; font-weight: bold}
+span.ttF1 {color: #99FF00}
+span.ttF2 {color: #00E500}
+span.ttF3 {color: #009900}
+span.ttF4 {color: #FF0000}
+span.ttF5 {color: #C31C1F}
+span.ttF6 {color: #00FFDD}
+span.ttF7 {color: #666666}
+span.ttF8 {color: #FF00FF}
+span.ttF9 {color: #C3B585}
+span.ttFT9 {color: #C3B585}
+span.ttF10 {color: #CCCC7F}
+span.ttF11 {color: #C3B51F}
+span.ttF12, span.ttF20 {color: #3553FF; font-weight: bold}
+span.ttF13, span.ttF21 {color: #FF0000; font-weight: bold}
+span.ttF14, span.ttF22 {color: #FEFF00; font-weight: bold}
+span.ttF15, div.buttonAdv {font-size: 14px; color: #FFFFFF}
+span.ttF16 {color: #FEFF00}
+span.ttF17 {color: #FF0099}
+span.ttF18 {color: #FFFFFF; top: 34px; left:7px; position: absolute}
+span.ttF15, span.ttF18, span.ttF19, span.ttF20, span.ttF21, span.ttF22, div.arrows , div.buttonAdv {text-shadow: -2px 0 black, 2px 0 black, 0 -2px black, 0 2px black, -1px -1px black, 1px 1px black, 1px -1px black, -1px 1px black}
+span.ttF19 {color: #FFFFFF}
+span.ttF23 {color: #FF7700}
+span.ttF24 {color: #C3E81F}
+span.ttF25 {color: #2C86FF}
+div.txtBasicW14 {font-family: Arial, serif; font-size: 14px; color: #FFFFFF}
+img.imgTrait {border:0}
+div.buttonAdv {display:table-cell ;text-align:center ;padding: 3px; min-width:220px; max-width:220px; min-height:20px; max-height:20px; border-radius: 4px; line-height: 0.9;}
+div.buttonAdvP {border:2px inset #959595; background-color: rgba(150, 150, 150, 1)}
+div.buttonAdvU {border:2px outset #959595; background-color: rgba(220, 220, 220, 1)}
+
+div.imgTrait {background-repeat: no-repeat; position:absolute; width:32px; height:32px}
+div.grayLines {background-repeat: no-repeat; position:absolute; width:50px; height:1px}
+#customFooter {text-align: right; display:block; line-height: 0.9}
+a.lotrottpLowLink:link, a.lotrottpLowLink:visited, a.lotrottpLowLink:active {color:#BBBBBB; text-decoration: none}
+a.lotrottpLowLink:hover {color:#CCCC00}
+a.linkRed:link, a.linkRed:visited, a.linkRed:active {color: #bb6758; text-decoration: none}
+a.linkRed:hover {color:#CCCC00}
+
+div.gray {filter: url(filters.svg#grayscale); filter: gray; filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -o-filter: grayscale(100%); -ms-filter: grayscale(100%)}

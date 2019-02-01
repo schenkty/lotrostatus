@@ -1,0 +1,97 @@
+body, html {}
+input.button1 { width:120px}
+#tableLayout {margin:auto; border:1px}
+#tdDesc {text-align:center}
+#tdClass {height:50px; min-height:50px; vertical-align:top; text-align:center}
+#tdPathDummy {width:100px; height:30px; min-width:100px; min-height:30px; vertical-align:top; text-align:center}
+td.tdPath {width:250px; height:20px; min-width:250px; min-height:20px; vertical-align:top; text-align:center}
+div.pathHead {position: absolute; top:5px; left:25px; max-width:200px; line-height: 0.9; text-align:center}
+div.pathBonus {position: absolute; top:78px; left:10px}
+div.pathMain {position: absolute; top:75px; left:55px; max-width:190px; line-height: 0.9}
+div.pathLow {position: absolute; left:55px; max-width:190px; line-height: 0.9}
+div.pathSkillName {position: absolute; left:95px; max-width:155px; max-height:36px}
+#tdBonus {width:100px; height:507px; min-width:100px; min-height:507px; max-height:507px; vertical-align:top; text-align:center; background-color: rgba(255, 165, 0, .25)}
+td.tdTree {width:250px; height:507px; min-width:250px; min-height:507px; background-color: rgba(0, 0, 0, .9);  vertical-align:top;}
+td.tdLow {height:50px; min-height:50px; vertical-align:top; text-align:center}
+div.toolTip {position: absolute; padding: 10px; min-width:220px; max-width:220px; border-radius: 4px; border:2px ridge #959595; background-color: rgba(0, 0, 0, .9); line-height: 0.9; z-index: 10}
+div.ttImg {position: absolute; top:26px; left:10px; background-repeat: no-repeat; width:32px; height:32px}
+div.ttMiniIcon {display:inline-block; background-repeat: no-repeat; width:14px; height:14px; margin-bottom:-2px}
+div.ttMiniIconRK {display:inline-block; background-repeat: no-repeat; width:16px; height:16px; margin-bottom:-2px}
+div.ttName {position: absolute; top:7px; left:52px; max-width:150px; max-height:36px}
+div.ttRange {position: absolute; top:66px;}
+div.divTree {width:250px; height:507px; min-width:250px; min-height:507px; vertical-align:top; position: absolute}
+div.divTreeG {width:250px; min-width:250px; max-height:507px; vertical-align:top; position: absolute}
+div.divBonusG {width:100px; min-width:100px; max-width:100px; max-height:507px; vertical-align:top; position: absolute}
+div.traitNumNGlow {min-width:36px; min-height:50px; background-color: rgba(255, 0, 0, .3); position:absolute}
+div.arrows {position: absolute; font-family: Verdana, Arial, serif; font-size: 20px; color: #FFA200; line-height: 0.8}
+
+div.traitHB, div.ttClose {z-index: 8; position:absolute; font-family: Verdana, Arial, serif; font-size: 16px; color: #FFA200; line-height: 0.8;
+    border-radius: 4px; border:2px ridge #959595; background-color: rgba(0, 0, 0, .9); text-align: center; width: 28px; height: 16px; padding-top: 3px; padding-right: 2px}
+
+td.tdTransBreak {background-color: rgba(0, 0, 0, 0); height: 12px}
+tr.blackBG {background-color: #111111}
+#tdClass {background-color: rgba(0, 0, 0, 0)}
+
+
+div.ttClose {z-index: 11}
+div.ttClose:after {content: "X";}
+#hBMain, #hBMainF {z-index: 7; position:absolute; left:-10px; top:-5px; width: 64px; height: 16px; padding-top: 2px; font-size: 16px;}
+#hBMain:after, #hBMainF:after {content: "inspect"}
+#hBPlus:after {content: "+"}
+#hBMinus:after {content: "-"}
+#hBTT0:after {content: "I"}
+#hBTT1:after {content: "II"}
+#hBTT2:after {content: "III"}
+#hBTT3:after {content: "IV"}
+#hBTT4:after {content: "V"}
+#hBTT5:after {content: "VI"}
+#mStaticHoverFooter {z-index: 6; position: fixed; left: -145px; padding-left:50%; bottom: 0; min-height: 54px; max-height: 54px; min-width: 290px; max-width: 290px; text-align: center}
+#mStaticGreyScreen {z-index: 9; position: fixed; top: 0;min-height: 100%; max-height: 100%; min-width: 100%; max-width: 100%; background-color: rgba(100, 100, 100, .5)}
+#pointsAvailable {min-width: 100%; max-width: 100%; min-height: 14px; max-height: 14px; text-align: center; color: #FFFFFF}
+#mFooterBlackBG {min-width: 100%; max-width: 100%; min-height: 54px; max-height: 54px; background-color: #111111; border-radius: 4px; border:1px solid #6f666b}
+#bonusTraitsHorContainer { min-width: 100%; max-width: 100%; min-height: 40px; max-height: 40px; background-color: rgba(255, 165, 0, .5)}
+#bonusTraitsHorBG {top: 14px; height:40px; min-height:40px; max-height:40px; max-width:290px; vertical-align:top; position: absolute; background-color: rgba(255, 165, 0, .5)}
+#bonusTraitsHorTraits {position:absolute}
+
+#divVersionInfo {font-family: Verdana, Arial, serif; font-size: 20px; font-weight: bold}
+span.ttF1, span.ttF2, span.ttF3, span.ttF4, span.ttF5, span.ttF6, span.ttF7, span.ttF8, span.ttF10, span.ttF11, span.ttF15, span.ttF16, span.ttF17, span.ttF18, span.ttF19, span.ttF23, span.ttF24, #pointsAvailable {font-family: Verdana, Arial, serif; font-size: 12px}
+span.ttF9, span.ttFT9,  span.ttF12,  span.ttF13,  span.ttF14 {font-family: Verdana, Arial, serif; font-size: 16px}
+span.ttF19, span.ttF20, span.ttF21, span.ttF22{font-family: Verdana, Arial, serif; font-size: 20px}
+span.ttF1 {color: #99FF00}
+span.ttF2 {color: #00E500}
+span.ttF3 {color: #009900}
+span.ttF4 {color: #FF0000}
+span.ttF5 {color: #C31C1F}
+span.ttF6 {color: #00FFDD}
+span.ttF7 {color: #666666}
+span.ttF8 {color: #FF00FF}
+span.ttF9 {color: #C3B585}
+span.ttFT9 {color: #C3B585}
+span.ttF10 {color: #CCCC7F}
+span.ttF11 {color: #C3B51F}
+span.ttF12, span.ttF20 {color: #3553FF; font-weight: bold}
+span.ttF13, span.ttF21 {color: #FF0000; font-weight: bold}
+span.ttF14, span.ttF22 {color: #FEFF00; font-weight: bold}
+span.ttF15, div.buttonAdv {font-size: 14px; color: #FFFFFF}
+span.ttF16 {color: #FEFF00}
+span.ttF17 {color: #FF0099}
+span.ttF18 {color: #FFFFFF; top: 34px; left:7px; position: absolute}
+span.ttF15, span.ttF18, span.ttF19, span.ttF20, span.ttF21, span.ttF22, div.arrows, div.buttonAdv {text-shadow: -2px 0 black, 2px 0 black, 0 -2px black, 0 2px black, -1px -1px black, 1px 1px black, 1px -1px black, -1px 1px black}
+span.ttF19 {color: #FFFFFF}
+span.ttF23 {color: #FF7700}
+span.ttF24 {color: #C3E81F}
+td.tdPath {text-shadow: -2px 0 #bdbdbd, 2px 0 #bdbdbd, 0 -2px #bdbdbd, 0 2px #bdbdbd, -1px -1px #bdbdbd, 1px 1px #bdbdbd, 1px -1px #bdbdbd, -1px 1px #bdbdbd}
+
+div.txtBasicW14 {font-family: Arial, serif; font-size: 14px; color: #FFFFFF}
+img.imgTrait {border:0}
+div.buttonAdv {display:table-cell ;text-align:center ;padding: 3px; min-width:220px; max-width:220px; min-height:20px; max-height:20px; border-radius: 4px; line-height: 0.9;}
+div.buttonAdvP {border:2px inset #959595; background-color: rgba(150, 150, 150, 1)}
+div.buttonAdvU {border:2px outset #959595; background-color: rgba(220, 220, 220, 1)}
+
+div.imgTrait {background-repeat: no-repeat; position:absolute; width:32px; height:32px}
+div.grayLines {background-repeat: no-repeat; position:absolute; width:50px; height:1px}
+#customFooter {text-align: right; display:block; line-height: 0.9}
+a.lotrottpLowLink:link, a.lotrottpLowLink:visited, a.lotrottpLowLink:active {color:#BBBBBB; text-decoration: none}
+a.lotrottpLowLink:hover {color:#CCCC00}
+
+div.gray {filter: url(filters.svg#grayscale); filter: gray; filter: grayscale(100%); -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -o-filter: grayscale(100%); -ms-filter: grayscale(100%)}
